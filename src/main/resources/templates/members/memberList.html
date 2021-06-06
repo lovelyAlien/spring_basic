@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>이름</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="member : ${members}">
+                <td th:text="${member.id}"></td>
+                <td th:text="${member.name}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div> <!-- /container -->
+</body>
+아무 생각이 없다 지금 난 아무 생각이 없어 생각을 해. 생각을 해.
+난 나다 난다다 난 나다 난 나다 난 나다. 행복하냐? 아니 행복하지 않아
+왜 왜 왜 왜 왜 왜 성취감 뿌듯함 없어. 무미건조함이라 할 수 있겠다.
+아 뿌듯하다? 그딴거 없다.
+</html>
